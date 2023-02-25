@@ -1,0 +1,8 @@
+.warning{
+    width: 300px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    position: absolute;
+    top:10%;
+    right: 0%;
+}

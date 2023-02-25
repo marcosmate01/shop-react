@@ -1,0 +1,52 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cards{
+    width: 250px;
+    padding: 20px;
+}
+
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.137);
+    transition: .9s ease-out;
+    cursor: pointer;
+}
+
+.image_box img{
+    display:  block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 180px;
+    margin-bottom: 30px;
+     
+}
+
+.details p {
+    margin-top: 50px;
+    font-weight: bold;
+    color: gray;     
+    height: 80px;
+   
+    
+
+}
+
+.details button{
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 500px;
+}
+
+.details button:hover{
+    transition: .3s ease-in;
+    background-color: beige;
+    cursor: pointer;
+}
